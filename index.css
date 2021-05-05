@@ -1,0 +1,45 @@
+.parent {
+    font-size: 20px;
+    color: #333;
+}
+
+.child {
+    font-size: 14px;
+    color: #666;
+}
+
+.bg {
+    background-color: rgb(43, 201, 56);
+}
+
+.bg:hover {
+    background-color: red;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.d1 {
+    background: LightSkyBlue;
+}
+
+.d2 {
+    background: LightSalmon;
+}
+
+.d3 {
+    background: PaleTurquoise;
+}
+
+.d4 {
+    background: LightPink;
+}
+
+.d5 {
+    background: PaleGreen;
+}
+
+.d6 {
+    background: rgba(145, 190, 228, 0.822);
+}
