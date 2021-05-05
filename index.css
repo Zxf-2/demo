@@ -1,45 +1,75 @@
-.parent {
-    font-size: 20px;
-    color: #333;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.child {
-    font-size: 14px;
+body {
+    background-color: #eee;
+    /* width: 50px;
+    height: 50px; */
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.head h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.imgCon {
+    background-color: #fff;
+    text-align: center;
+}
+
+.imgCon .img {
+    display: block;
+    margin: auto;
+}
+
+.imgCon .text {
+    display: inline-block;
+    font-size: 12px;
     color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.bg {
-    background-color: rgb(43, 201, 56);
+.content h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.bg:hover {
-    background-color: red;
+.content ul {
+    width: 600px;
+    margin: auto;
 }
 
-.pink {
-    background-color: pink;
+.content ul li {
+    margin: 8px 0;
+    line-height: 20px;
 }
 
-.d1 {
-    background: LightSkyBlue;
+.foot {
+    font-style: italic;
+    color: #666;
+    width: 600px;
+    font-size: 14px;
+    margin: 20px auto;
 }
 
-.d2 {
-    background: LightSalmon;
+.foot span {
+    display: block;
+    margin: 10px 0;
 }
 
-.d3 {
-    background: PaleTurquoise;
+.foot2 a {
+    text-decoration: none;
 }
 
-.d4 {
-    background: LightPink;
-}
-
-.d5 {
-    background: PaleGreen;
-}
-
-.d6 {
-    background: rgba(145, 190, 228, 0.822);
+.foot2 h2 {
+    font-size: 15px;
 }
